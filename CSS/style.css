@@ -39,6 +39,7 @@ main {
     color: white;
 }
 
+
 .button:active {
     top: 1px;
 }
@@ -49,3 +50,20 @@ main {
     font-size: 50px;
 }
 
+.reset {
+    position: relative;
+    margin-top: 3px;
+    background-color: #000000;
+    color: #ffffff;
+    font-family: inherit;
+    letter-spacing: 2px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: lighter;
+    border-radius: 10px;
+}
+.reset:active {
+    top: 2px;
+}
